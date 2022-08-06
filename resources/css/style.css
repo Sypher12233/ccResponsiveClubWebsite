@@ -1,0 +1,89 @@
+/* universal */
+
+html {
+  font-size: 16px;
+  background-color: lightcyan ;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+}
+
+/* nav section */
+
+nav {
+  height: 4rem;
+  background-color: blanchedalmond;
+}
+
+nav p{
+  padding-left: 1rem;
+  font-family: Roboto, sans-serif;
+  text-decoration: underline;
+}
+
+nav p:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+/* main-text */
+
+.main-text {
+  height: 30rem;
+  width: auto;
+  background-image: url(../images/antenna-ZDN-G1xBWHY-unsplash.jpg);
+  background-position: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.frame{
+  height: 10rem;
+  background-color: lightskyblue;
+  width: 100%;
+  opacity: .5;
+}
+
+.frame p {
+  font-size: 5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* invitation section */
+
+.container {
+  height: 10rem;
+  width: auto;
+}
+
+.sub-header {
+  height: inherit;
+  font-size: 5rem;
+  /* border: 1px solid red; */
+}
+
+.sub-header p {
+  color: springgreen;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.defcon-image img{
+  height: 25rem;
+  width: 50%;
+}
+
+.defcon-text p {
+  padding-left: 1rem;
+  font-size: 3rem;
+  font-family: 'Neonderthaw', cursive;
+  color: blueviolet;
+}
